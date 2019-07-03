@@ -1,5 +1,5 @@
-#My TDD process
-1. Using your domain model, write simplest, first feature test for the first user story, using a REPL, to understand how you might interact with the program and the classes, methods, etc you know about so far. Watch the fail (RED step).
+# My TDD process
+1. Using your [domain] model, write simplest, first feature test for the first user story, using a REPL, to understand how you might interact with the program and the classes, methods, etc you know about so far. Watch the fail (RED step).
 
 2. (This feature test could be automated in your test suite, or added to a test helper so the set up activies required don't have to be repeated manually for each subsequent test. This would likely be part of a later refactor).
 

@@ -8,4 +8,23 @@ To be able to test-drive anything means that I am comfortable and confident to t
 
 Following this ```red```, ```green``` and then ```refactor``` cycle ensures clean, minimal and well-designed code, with maximum test coverage.
 
-## Plan: List evidence you aim to collect that would together show you have credibly achieved this goal
+### Process
+Overview
+
+* Break out the objects and messages from the user story, and create a table highlighting which messages you expect to be passed to which objects.
+
+* Write a feature test for the user story (how a user may expect to interact with the class(es) and method(s) in the story) - this can be in a repl, or later in the development process, in an automated feature test file.
+
+* Use the first feature test failure to guide the first unit test.
+
+* Use the first unit test failure to guide the first (and absolute simplest) code implementation to pass both tests.
+
+* Repeat.
+
+detail
+
+My [process](https://github.com/KZedan/Goal_Tracking/blob/master/processes/tdd.md) in detail, for test_driving anything.
+
+
+
+### Plan: List evidence you aim to collect that would together show you have credibly achieved this goal
